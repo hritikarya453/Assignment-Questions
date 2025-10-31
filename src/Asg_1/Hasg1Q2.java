@@ -1,3 +1,5 @@
+package Asg_1;
+
 public class Hasg1Q2 {
     public static void main(String[] args) {
         int a = 2147483647; // Integer.MAX_VALUE
