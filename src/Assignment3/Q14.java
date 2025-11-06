@@ -7,43 +7,44 @@ public class Q14 {
         Scanner in = new Scanner(System.in);
         int max = 12, min = 1;
         int a = (int) (Math.random() * (max - min + 1)) + min;
+        System.out.println("Randomly generated number:"+a);
 
         switch (a) {
             case 1:
-                System.out.println("Randomly generated number:\n " + a + " Corresponding month: January");
+                System.out.println(" Corresponding month: January");
                 break;
             case 2:
-                System.out.println("Randomly generated number:\n " + a + " Corresponding month: February");
+                System.out.println(" Corresponding month: February");
                 break;
             case 3:
-                System.out.println("Randomly generated number:\n " + a + " Corresponding month: March");
+                System.out.println(" Corresponding month: March");
                 break;
             case 4:
-                System.out.println("Randomly generated number:\n " + a + " Corresponding month: April");
+                System.out.println(" Corresponding month: April");
                 break;
             case 5:
-                System.out.println("Randomly generated number:\n " + a + " Corresponding month: May");
+                System.out.println(" Corresponding month: May");
                 break;
             case 6:
-                System.out.println("Randomly generated number:\n " + a + " Corresponding month: June");
+                System.out.println(" Corresponding month: June");
                 break;
             case 7:
-                System.out.println("Randomly generated number:\n " + a + " Corresponding month: July");
+                System.out.println(" Corresponding month: July");
                 break;
             case 8:
-                System.out.println("Randomly generated number:\n " + a + " Corresponding month: August");
+                System.out.println(" Corresponding month: August");
                 break;
             case 9:
-                System.out.println("Randomly generated number:\n " + a + " Corresponding month: September");
+                System.out.println(" Corresponding month: September");
                 break;
             case 10:
-                System.out.println("Randomly generated number:\n " + a + " Corresponding month: October");
+                System.out.println(" Corresponding month: October");
                 break;
             case 11:
-                System.out.println("Randomly generated number:\n " + a + " Corresponding month: November");
+                System.out.println(" Corresponding month: November");
                 break;
             case 12:
-                System.out.println("Randomly generated number:\n " + a + " Corresponding month: December");
+                System.out.println(" Corresponding month: December");
                 break;
         }
     }

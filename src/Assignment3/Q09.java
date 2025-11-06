@@ -39,5 +39,6 @@ public class Q09 {
             default:
                 System.out.println("Invalid operator! Please use +, -, *, or /.");
         }
+        in.close();
     }
 }
