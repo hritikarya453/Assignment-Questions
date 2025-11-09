@@ -14,16 +14,18 @@ import java.util.Scanner;
 public class Q05 {
     static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter first number:");
+        System.out.print("Enter first number:");
         int a = in.nextInt();
-        System.out.println("Enter second number");
+        System.out.print("Enter second number");
         int b = in.nextInt();
-        System.out.println("Enter third number");
+        System.out.print("Enter third number");
         int c = in.nextInt();
-        String s=" ";
+        int sum=0;
         for (int i = a; i <=b ; i=i+c) {
-            System.out.print(s+i);
+            System.out.print(i+"  ");
+            sum+=i;
         }
+        System.out.println("\nThe sum of numbers displayed is " + sum);
 
     }
 }
