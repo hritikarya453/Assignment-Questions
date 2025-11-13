@@ -22,9 +22,9 @@ public class ExchangeFourVariables {
         // Reset values for next method
         W = 1; G = 2; K = 3; A = 4;
 
-        // (b) Without using extra variable
-        W = W + G + K + A; // W = sum of all
-        A = W - (G + K + A); // A gets original W
+        // (b) Without using extra variablev
+        W = W + G + K + A; // W =ets ori sum of all
+        A = W - G - K - A; // A gets original W
         K = W - (G + K + A); // K gets original A
         G = W - (G + K + A); // G gets original K
         W = W - (G + K + A); // W gets original G

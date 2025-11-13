@@ -17,6 +17,9 @@ public class Q08 {
             rate = 50 * 3.00 + 150 * 4.80 + 200 * 5.80 + (unit - 400) * 6.20;
         System.out.println("Do you want to pay your bill online? (Y/N): ");
         char a = in.next().toUpperCase().charAt(0);
+        //or
+        // char a = Character.toUpperCase(in.next().charAt(0));
+
         switch (a) {
             case 'Y':
                 double disc = 0.03 * rate;
@@ -25,8 +28,7 @@ public class Q08 {
                 System.out.println("Total amount after discount is :" + amount);
                 break;
             case 'N':
-                System.out.println("You will get no discount.");
-                System.out.println("Total amount to be paid is: " + rate);
+                System.out.println("You will get no discount. \n You have to pay :"+rate);
                 break;
             default:
                 System.out.println("Invalid Input");
