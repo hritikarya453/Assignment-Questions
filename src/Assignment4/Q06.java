@@ -17,14 +17,14 @@ public class Q06 {
         System.out.print("Enter a number:");
         int n = in.nextInt();
         int og=n;
-        int sum=0;
+        int rev=0;
         while (n!=0){
             int digit = n%10;
-            sum = sum*10+digit;
+            rev = rev*10+digit;
             n/=10;
         }
-        System.out.println("Reverse of a number "+sum);
-        if (og==sum)
+        System.out.println("Reverse of a number "+rev);
+        if (og==rev)
             System.out.println("Palindrome");
         else
             System.out.println("not palindrome");

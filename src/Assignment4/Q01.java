@@ -25,7 +25,7 @@ public class Q01 {
         if (sum%9==0){
             System.out.println("IT is divisible by 9");
         }else{
-            System.out.println("It is not divsible by 9");
+            System.out.println("It is not divisible by 9");
         }
 
     }
