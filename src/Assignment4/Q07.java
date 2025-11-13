@@ -8,10 +8,11 @@ public class Q07 {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter a number:");
         int n = in.nextInt();
-        for (int i = 1; i <= 3; i++) {
+        int i;
+        for ( i = 1; i <= 3; i++) {
             System.out.println(n+" * "+i+" = "+n*i);
         }
-        int i =4;
+
         while(i<=6){
             System.out.println(n+" * "+i+" = "+n*i);
             i++;

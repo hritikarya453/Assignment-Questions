@@ -1,4 +1,4 @@
-/*package Assignment4;
+package Assignment4;
 
 import java.util.Scanner;
 
@@ -17,7 +17,8 @@ public class Q08 {
         System.out.println("Gcd =" + b);
     }
 }
-*/
+
+/*
 package Assignment4;
 
 import java.util.Scanner;
@@ -43,3 +44,5 @@ public class Q08 {
         System.out.println("GCD of " + a + " and " + b + " is: " + x);
     }
 }
+
+ */
