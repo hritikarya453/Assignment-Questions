@@ -12,6 +12,8 @@ public class Q11 {
             if(n%i==0){
                 sum+=i;
             }
+
+            
         }
         if (sum==n){
             System.out.println("perfect no");
