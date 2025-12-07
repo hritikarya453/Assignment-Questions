@@ -1,14 +1,33 @@
-//WAP to check whether a number is twisted prime or not.
-//
-//Twisted prime is a number if the number and its reverse both are prime then it is called
-//twisted prime.
-//
-//Sample run 1: Enter a number: 97 97 is twisted prime. Sample run 2: 43 43 is not a
-//twisted prime
-//Sample run1:
-//Enter a number: 97
-//        97 is twisted prime.
+import java.util.Scanner;
 
-//Sample run2:
-//Enter a number: 43
-//        43 is not a twisted prime.
+public class demo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Input
+        System.out.print("Enter n (n > 3): ");
+        int n = sc.nextInt();
+
+        if (n <= 3) {
+            System.out.println("Please enter a value greater than 3.");
+
+            return;
+        }
+
+        int a = 0, b = 1, c = 1;
+
+        // Print first three terms
+        System.out.print(a + " " + b + " " + c);
+
+        // Generate remaining terms
+        for (int i = 4; i <= n; i++) {
+            int term = a + b + c;
+            System.out.print(" " + term);
+            a = b;
+            b = c;
+            c = term;
+        }
+
+
+    }
+}

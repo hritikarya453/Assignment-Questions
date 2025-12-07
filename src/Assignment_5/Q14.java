@@ -8,22 +8,26 @@ public class Q14 {
         System.out.print("Enter value of x in radians: ");
         double x = sc.nextDouble();
 
-        double term = 1; // first term
-        double sum = 1;  // start sum from 1
-        int n = 1;
+        double term = 1;   // first term
+        double sum = 1;    // initialize sum with first term
+        int i = 1;
 
-        while (Math.abs(term) > 1e-6) { // acceptable error 10^-6
-            term = Math.pow(-1, n) * Math.pow(x, 2 * n) / factorial(2 * n);
+        // keep adding terms until they are very small
+        while (Math.abs(term) > 1e-6) {
+            term = Math.pow(-1, i) * Math.pow(x, 2 * i) / factorial(2 * i);
             sum += term;
-            n++;
+            i++;
         }
 
-        System.out.println("Cos(" + x + ") = " + sum);
+        System.out.println("Approximate value of cos(" + x + ") = " + sum);
+        System.out.println("Math.cos(" + x + ") = " + Math.cos(x));
+
+        sc.close();
     }
 
     // factorial method
-    public static long factorial(int num) {
-        long fact = 1;
+    public static double factorial(int num) {
+        double fact = 1;
         for (int i = 1; i <= num; i++) {
             fact *= i;
         }
