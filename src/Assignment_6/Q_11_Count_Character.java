@@ -2,7 +2,7 @@ package Assignment_6;
 
 import java.util.Scanner;
 
-public class Q_11_Char_Occurrence {
+public class Q_11_Count_Character {
 
     public static int count(String str, char a) {
         int c = 0;

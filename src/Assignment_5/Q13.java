@@ -24,9 +24,11 @@ public class Q13 {
     }
 
     // factorial method
-    public static double factorial(int num) {
-        double fact = 1;
-        for (int i = 1; i <= num; i++) {
+    public static long factorial(int num) {
+        if(num==0|| num==1)
+            return 1;
+        long fact = 1;
+        for (int i = 2; i <= num; i++) {
             fact *= i;
         }
         return fact;

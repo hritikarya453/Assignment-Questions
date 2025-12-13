@@ -1,8 +1,6 @@
 package Assignment_6;
 
-import java.util.Scanner;
-
-public class Q_08_Largest_Digit {
+import java.util.Scanner;public class Q_08_Largest_Digit {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 

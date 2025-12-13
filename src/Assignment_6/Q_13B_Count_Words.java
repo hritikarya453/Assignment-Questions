@@ -7,8 +7,8 @@ public class Q_13B_Count_Words {
         Scanner in = new Scanner(System.in);
 
     }
-    // manual improved version // Also handle tab line and new line
-    // checked edge cases
+    // manual improved version. // Also handle tab line and new line.
+    // checked edge cases.
     public static int countWords(String str) {
         if (str == null) return 0;
 
