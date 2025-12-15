@@ -23,7 +23,9 @@ public class Q_16_PassWord {
                 c++;
             }
         }
-        // Rule 3: At least 2 digits
+                                             //WE CAN DIRECTLY PUT LAST CONDITION ON RETURN PATH OF THE METHOD//
+                                             //BUT IT SHOULD BE OUTSIDE LOOP CONDITION
+        // Rule 3: At least 2 digits         //OR IT SHOULD BE COVERING ALL RETURN PATH....
         if (c < 2){
             return false;
         }

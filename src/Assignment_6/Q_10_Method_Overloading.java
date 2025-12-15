@@ -37,7 +37,7 @@ public class Q_10_Method_Overloading {
             System.out.print("Enter your choice: ");
 
             int choice = sc.nextInt();
-
+            // we can also use case 5 inside switch while returning (return) to while loop 
             if (choice == 5) {
                 System.out.println("Exiting program...");
                 break;
