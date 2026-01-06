@@ -5,15 +5,15 @@ public class Q_11 {
 
     // Method to find the minimum value
     public static double max(double[] array) {
-        double min = array[0];
+        double max = array[0];
 
         for (int i = 1; i < array.length; i++) {
-            if (array[i] < min) {
-                min = array[i];
+            if (array[i] > max) {
+                max = array[i];
             }
         }
 
-        return min;
+        return max;
     }
 
     public static void main(String[] args) {
@@ -25,8 +25,8 @@ public class Q_11 {
             n[i] = sc.nextDouble();
         }
 
-        double minValue = max(n);
+        double maxValue = max(n);
 
-        System.out.println("The minimum number is: " + minValue);
+        System.out.println("The minimum number is: " + maxValue);
     }
 }
