@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Q_11 {
 
-    // Method to find the minimum value
+
     public static double max(double[] array) {
         double max = array[0];
 
@@ -27,6 +27,6 @@ public class Q_11 {
 
         double maxValue = max(n);
 
-        System.out.println("The minimum number is: " + maxValue);
+        System.out.println("The maximum number is: " + maxValue);
     }
 }
