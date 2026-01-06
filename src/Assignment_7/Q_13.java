@@ -1,6 +1,6 @@
 package Assignment_7;
 
-public class Q_12 {
+public class Q_13 {
 
     // 1. Method to fill array with random values between 50 and 100
     public static void fillArray(int[] arr) {
