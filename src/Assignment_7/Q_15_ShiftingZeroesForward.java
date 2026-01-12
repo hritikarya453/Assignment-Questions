@@ -2,7 +2,7 @@ package Assignment_7;
 
 import java.util.Scanner;
 
-public class Q_15 {
+public class Q_15_ShiftingZeroesForward {
 
     // Method to move all zeros to the beginning
     public static void moveZerosToBeginning(int[] arr) {
