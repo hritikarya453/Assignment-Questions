@@ -3,6 +3,34 @@ package Assignment_7;
 import java.util.Scanner;
 
 public class Q_10 {
+    public static int[] eliminateDuplicates(int[] list) {
+        int[] temp = new int[list.length];
+        int index = 0;
+
+        for (int i = 0; i < list.length; i++) {
+            boolean isDuplicate = false;
+
+            for (int j = 0; j < index; j++) {
+                if (list[i] == temp[j]) {
+                    isDuplicate = true;
+                    break;
+                }
+            }
+
+            if (!isDuplicate) {
+                temp[index] = list[i];
+                index++;
+            }
+        }
+
+        // Create final array of exact size
+        int[] result = new int[index];
+        for (int i = 0; i < index; i++) {
+            result[i] = temp[i];
+        }
+
+        return result;
+    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -24,33 +52,4 @@ public class Q_10 {
         sc.close();
     }
 
-    // Method to remove duplicates
-    public static int[] eliminateDuplicates(int[] list) {
-        int[] temp = new int[list.length];
-        int count = 0;
-
-        for (int i = 0; i < list.length; i++) {
-            boolean isDuplicate = false;
-
-            for (int j = 0; j < count; j++) {
-                if (list[i] == temp[j]) {
-                    isDuplicate = true;
-                    break;
-                }
-            }
-
-            if (!isDuplicate) {
-                temp[count] = list[i];
-                count++;
-            }
-        }
-
-        // Create final array of exact size
-        int[] result = new int[count];
-        for (int i = 0; i < count; i++) {
-            result[i] = temp[i];
-        }
-
-        return result;
-    }
 }
