@@ -4,8 +4,8 @@ package Asg_2_P2;
 public class Q07 {
     public static void main(String[] args) {
         // Generate two random integers between 1 and 6
-        int die1 = 1 + (int)(Math.random() * 6);
-        int die2 = 1 + (int)(Math.random() * 6);
+        int die1 = (int)(Math.random() * 6) + 1;
+        int die2 = (int)(Math.random() * 6) + 1;
 
         // Calculate and print the sum
         int sum = die1 + die2;

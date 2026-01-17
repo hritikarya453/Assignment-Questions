@@ -18,8 +18,10 @@ public class Q01 {
             return;
         }
 
+        // Always remember division means remainder will come zero
+
         // Check divisibility
         boolean result = (a % b == 0) || (b % a == 0);
-        System.out.println("Eevenly divides " +a+" " +b+ " -->  "+result);
+        System.out.println("Evenly divides " +a+" " +b+ " -->  "+result);
     }
 }

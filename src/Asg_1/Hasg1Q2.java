@@ -2,7 +2,7 @@ package Asg_1;
 
 public class Hasg1Q2 {
     public static void main(String[] args) {
-        byte a = 127; // Integer.MAX_VALUE
+        byte a = 127;  // Integer.MAX_VALUE
 
         System.out.println("a = " + a);
         System.out.println("a + 1 = " + (byte)(a + 1));
@@ -13,7 +13,6 @@ public class Hasg1Q2 {
         System.out.println("3 * a = " + (byte)(3 * a));
         System.out.println("5 * a = " + (byte)(5 * a));
         System.out.println("6 * a = " + (byte)(6 * a));
-
 
           //Q3
 
