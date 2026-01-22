@@ -1,6 +1,6 @@
 package Assignment_5;
 
-public class Q10 {
+public class Q10Pattern {
     public static void main(String[] args) {
         int n =5;
 

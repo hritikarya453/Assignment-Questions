@@ -2,7 +2,7 @@ package Assignment_5;
 
 import java.util.Scanner;
 
-public class Q09 {
+public class Q09Series {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
