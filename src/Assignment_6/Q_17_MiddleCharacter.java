@@ -6,10 +6,16 @@ public class Q_17_MiddleCharacter {
 
     public static char getMiddleCharacter(String str) {
         int len = str.length();
-
-        // Middle index rule
         return str.charAt(len / 2);
     }
+    public static char getFirstMiddleCharacter(String str) {
+        int len = str.length();
+        if(len%2==0){
+            return str.charAt(len/2-1);
+        }
+        return str.charAt(len / 2);
+    }
+    
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

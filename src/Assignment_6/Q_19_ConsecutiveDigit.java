@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Q_19_ConsecutiveDigit {
 
     public static boolean areConsecutive(int a, int b, int c) {
-        return (b == a + 1 && c == a + 2);
+        return (b == a + 1) && (c == a + 2);
     }
 
     public static void main(String[] args) {

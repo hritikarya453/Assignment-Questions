@@ -16,7 +16,7 @@ public class Q_11_Count_Character {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        //
+
         System.out.print("Enter a string: ");
         String str = in.nextLine();
 

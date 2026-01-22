@@ -6,7 +6,7 @@ public class Rotate_Array_Clockwise {
     static void rotate(int[] arr, int k){
         int n = arr.length;
          k = k%n;
-         reverse(arr,0,n-1);
+         reverse(arr,0,n-1); // reverse whole array
          reverse(arr,0,k-1);
          reverse(arr, k ,n-1);
 

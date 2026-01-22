@@ -18,16 +18,16 @@ public class Q15_TribonacciSequence {
         int a = 0, b = 1, c = 1;
 
         // Display first three terms
-        System.out.print(a + " " + b + " " + c + " ");
+        System.out.print(a + " " + b + " " + c);
 
         // Generate remaining terms
         for (int i = 4; i <= n; i++) {
-            int next = a + b + c;
-            System.out.print(next + " ");
+            int d = a + b + c;
+            System.out.print(" " +d);
             // Shift values
             a = b;
             b = c;
-            c = next;
+            c = d;
         }
     }
 }

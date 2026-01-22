@@ -5,10 +5,9 @@ import java.util.Scanner;
 public class Q_09_BubbleSort {
 
     public static void bubbleSort(double[] arr) {
-        boolean swapped;
 
         for (int i = 0; i < arr.length - 1; i++) {
-            swapped = false;
+          boolean  swapped = false;
 
             for (int j = 0; j < arr.length - i - 1; j++) {
                 if (arr[j] > arr[j + 1]) {

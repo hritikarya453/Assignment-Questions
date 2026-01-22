@@ -1,8 +1,4 @@
-
-
-public class demo {
-    static void main(String[] args) {
-
-
-    }
-}
+//
+//import java.util.Scanner;
+//
+//public class demo {

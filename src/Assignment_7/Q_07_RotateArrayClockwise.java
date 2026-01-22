@@ -34,7 +34,7 @@ public class Q_07_RotateArrayClockwise {
     public static void main(String[] args) {
         int[] arr = new int[10];
         readArray(arr);
-//        System.out.println("How many time time you want to rotate");
+//        System.out.println("How many time you want to rotate");
 //        int n =3;
 //        for (int i = 0; i < n ; i++) {
 //            rotateClockwise(arr);

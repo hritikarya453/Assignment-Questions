@@ -31,7 +31,6 @@ public class Q_22_String_Method_Demo {
         System.out.println("String after replacing 'a' with '@': \"" + str.replace('a', '@') + "\"");
 
         System.out.println("Substring from index 2 to 7: \"" + str.substring(2, 8) + "\"");
-
         sc.close();
     }
 }

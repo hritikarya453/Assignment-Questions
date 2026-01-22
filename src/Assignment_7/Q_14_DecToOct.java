@@ -7,7 +7,6 @@ public class Q_14_DecToOct {
     // Method to convert decimal to octal
     public static String decimalToOctal(int decimal) {
 
-
         String octal = "";
 
         while (decimal > 0) {

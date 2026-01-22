@@ -18,8 +18,8 @@ public class Q_15_ShiftingZeroesForward {
 
         // Fill remaining positions with zeros
         while (index >= 0) {
-            arr[index] = 0;
-            index--;
+            arr[index--] = 0;
+
         }
     }
 

@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Q_15_Palindrome_String {
 
     public static boolean isPalindrome(String str) {
+        str = str.toLowerCase().trim();
         int s = 0, e = str.length() - 1;
         while (s < e) {
             if (str.charAt(s) != str.charAt(e)) {

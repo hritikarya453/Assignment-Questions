@@ -21,7 +21,7 @@ public class Q_03_LinearSearch {
                 c++;
             }
         }
-        return c; // ✅ outside loop
+        return c;
     }
 
     public static void main(String[] args) {

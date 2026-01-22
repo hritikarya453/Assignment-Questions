@@ -19,7 +19,6 @@ public class Q_06_Friendly_Pair {
 
     public static boolean isFriendlyPair(int a, int b) {
         return  (double) sumOfDivisors(a) / a == (double) sumOfDivisors(b) / b;
-
     }
 
     public static void main(String[] args) {
