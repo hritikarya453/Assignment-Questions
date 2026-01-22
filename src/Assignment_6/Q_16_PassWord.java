@@ -15,7 +15,7 @@ public class Q_16_PassWord {
             char ch = password.charAt(i);
 
             // Rule 2: Only letters and digits allowed
-            if (!Character.isLetter(ch) && !Character.isDigit(ch)) {
+            if (!Character.isLetterOrDigit(ch)) {
                 return false;
             }
             // Count digits

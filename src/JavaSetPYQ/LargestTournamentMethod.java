@@ -7,7 +7,7 @@ public class LargestTournamentMethod {
     // Method to find maximum element and count comparisons
     public static int[] findMax(int[] arr) {
 
-        int comparisons = 0;
+        //int comparisons = 0;
         int end = arr.length;
 
         // Repeat until only one element remains
@@ -16,7 +16,7 @@ public class LargestTournamentMethod {
 
             // Compare consecutive elements
             for (int i = 0; i < end - 1; i += 2) {
-                comparisons++;
+            //    comparisons++;
                 if (arr[i] > arr[i + 1]) {
                     arr[index++] = arr[i];
                 } else {
