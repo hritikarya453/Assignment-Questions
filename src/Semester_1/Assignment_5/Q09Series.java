@@ -1,0 +1,22 @@
+package Semester_1.Assignment_5;
+
+import java.util.Scanner;
+
+public class Q09Series {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter n: ");
+        int n = sc.nextInt();
+
+        double sum = 0.0;
+
+        for (int i = 1; i <= n; i++) {
+            double term = Math.pow(-1, i + 1) * (2.0 * i / (2.0 * i - 1));
+            sum += term;
+        }
+
+        System.out.println("Sum = " + sum);
+    }
+}
+
