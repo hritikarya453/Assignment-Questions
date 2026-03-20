@@ -22,8 +22,8 @@ class Duck implements Flyable,Swimmable{
         System.out.println("Duck is swimming");
     }
     void displayDetails(){
-        System.out.println("Duck Name: " + name);
         fly();
+        System.out.println("Duck Name: " + name);
         swim();
     }
 }
