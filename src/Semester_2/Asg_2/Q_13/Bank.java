@@ -16,9 +16,22 @@ public class Bank {
     }
 
     void showData() {
-        System.out.println("Bank name" + bankName +
-                "\nDeposit Amount : " + depositAmount
-                + "\n");
+        System.out.println("Bank Name: " + bankName +
+                "\nDeposit Amount: " + depositAmount + "\n");
+    }
+
+    static void minDepositBank(Bank[] b) {
+        double min = b[0].depositAmount;
+        int minIndex = 0;
+
+        for (int i = 1; i < b.length; i++) {
+            if (b[i].depositAmount < min) {
+                min = b[i].depositAmount;
+                minIndex = i;
+            }
+        }
+
+        System.out.println("Minimum deposit in bank: "
+                + b[minIndex].bankName + " Amount: " + min);
     }
 }
-
